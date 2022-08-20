@@ -12,7 +12,9 @@
 ~H
 # Command Line History (newest to oldest):
 :wq!
-|2,0,1661030878,,"wq!"
+|2,0,1661036137,,"wq!"
+:Wq!
+|2,0,1661036119,,"Wq!"
 
 # Search String History (newest to oldest):
 
@@ -25,14 +27,26 @@
 # Registers:
 
 # File marks:
-'0  3  2  ~/cases
-|4,48,3,2,1661030878,"~/cases"
-'1  6  0  ~/deploy.py
-|4,49,6,0,1661030365,"~/deploy.py"
+'0  7  0  ~/deploy.py
+|4,48,7,0,1661036137,"~/deploy.py"
+'1  3  2  ~/cases
+|4,49,3,2,1661030878,"~/cases"
+'2  6  0  ~/deploy.py
+|4,50,6,0,1661030365,"~/deploy.py"
+'3  6  0  ~/deploy.py
+|4,51,6,0,1661030365,"~/deploy.py"
 
 # Jumplist (newest first):
+-'  7  0  ~/deploy.py
+|4,39,7,0,1661036137,"~/deploy.py"
+-'  6  0  ~/deploy.py
+|4,39,6,0,1661035837,"~/deploy.py"
 -'  3  2  ~/cases
 |4,39,3,2,1661030878,"~/cases"
+-'  3  2  ~/cases
+|4,39,3,2,1661030878,"~/cases"
+-'  1  0  ~/cases
+|4,39,1,0,1661030793,"~/cases"
 -'  1  0  ~/cases
 |4,39,1,0,1661030793,"~/cases"
 -'  6  0  ~/deploy.py
@@ -43,8 +57,26 @@
 |4,39,1,0,1661029495,"~/deploy.py"
 -'  1  0  ~/deploy.py
 |4,39,1,0,1661029495,"~/deploy.py"
+-'  1  0  ~/deploy.py
+|4,39,1,0,1661029495,"~/deploy.py"
 
 # History of marks within files (newest to oldest):
+
+> ~/deploy.py
+	*	1661036119	0
+	"	7	0
+	^	7	0
+	.	6	20
+	+	4	20
+	+	2	21
+	+	4	21
+	+	5	8
+	+	3	15
+	+	5	16
+	+	4	0
+	+	6	4
+	+	2	1
+	+	6	20
 
 > ~/cases
 	*	1661030865	0
@@ -52,15 +84,3 @@
 	^	3	3
 	.	3	1
 	+	3	1
-
-> ~/deploy.py
-	*	1661030353	0
-	"	6	0
-	^	6	0
-	.	5	16
-	+	4	20
-	+	2	21
-	+	4	21
-	+	5	8
-	+	3	15
-	+	5	16
